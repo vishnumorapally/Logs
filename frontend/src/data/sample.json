@@ -1,0 +1,242 @@
+[
+  {
+    "level": "error",
+    "message": "Database read timeout",
+    "resourceId": "db-1101",
+    "timestamp": "2023-09-17T08:05:12Z",
+    "traceId": "trc-011-aaa",
+    "spanId": "span-1111",
+    "commit": "a12b34c",
+    "metadata": {
+      "parentResourceId": "db-001"
+    }
+  },
+  {
+    "level": "info",
+    "message": "User registration completed",
+    "resourceId": "auth-2202",
+    "timestamp": "2023-09-17T08:15:42Z",
+    "traceId": "trc-012-bbb",
+    "spanId": "span-1212",
+    "commit": "b45c67d",
+    "metadata": {
+      "parentResourceId": "auth-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "API latency above threshold",
+    "resourceId": "api-3303",
+    "timestamp": "2023-09-17T08:25:05Z",
+    "traceId": "trc-013-ccc",
+    "spanId": "span-1313",
+    "commit": "c78d90e",
+    "metadata": {
+      "parentResourceId": "api-001"
+    }
+  },
+  {
+    "level": "error",
+    "message": "File upload failed",
+    "resourceId": "storage-4404",
+    "timestamp": "2023-09-17T08:35:30Z",
+    "traceId": "trc-014-ddd",
+    "spanId": "span-1414",
+    "commit": "d12e34f",
+    "metadata": {
+      "parentResourceId": "storage-001"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Session validation initiated",
+    "resourceId": "session-5505",
+    "timestamp": "2023-09-17T08:45:18Z",
+    "traceId": "trc-015-eee",
+    "spanId": "span-1515",
+    "commit": "e56f78g",
+    "metadata": {
+      "parentResourceId": "session-001"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Invoice generated for order",
+    "resourceId": "order-6606",
+    "timestamp": "2023-09-17T08:55:59Z",
+    "traceId": "trc-016-fff",
+    "spanId": "span-1616",
+    "commit": "f90g12h",
+    "metadata": {
+      "parentResourceId": "order-002"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "CPU usage at 92%",
+    "resourceId": "server-7707",
+    "timestamp": "2023-09-17T09:05:22Z",
+    "traceId": "trc-017-ggg",
+    "spanId": "span-1717",
+    "commit": "g34h56i",
+    "metadata": {
+      "parentResourceId": "server-001"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Email delivery failed",
+    "resourceId": "mail-8808",
+    "timestamp": "2023-09-17T09:15:47Z",
+    "traceId": "trc-018-hhh",
+    "spanId": "span-1818",
+    "commit": "h78i90j",
+    "metadata": {
+      "parentResourceId": "mail-002"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Token refresh requested",
+    "resourceId": "auth-9909",
+    "timestamp": "2023-09-17T09:25:36Z",
+    "traceId": "trc-019-iii",
+    "spanId": "span-1919",
+    "commit": "i12j34k",
+    "metadata": {
+      "parentResourceId": "auth-003"
+    }
+  },
+  {
+    "level": "info",
+    "message": "New product added to catalog",
+    "resourceId": "catalog-1010",
+    "timestamp": "2023-09-17T09:35:28Z",
+    "traceId": "trc-020-jjj",
+    "spanId": "span-2020",
+    "commit": "j56k78l",
+    "metadata": {
+      "parentResourceId": "catalog-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "High response time detected",
+    "resourceId": "api-1111",
+    "timestamp": "2023-09-17T09:45:05Z",
+    "traceId": "trc-021-kkk",
+    "spanId": "span-2121",
+    "commit": "k90l12m",
+    "metadata": {
+      "parentResourceId": "api-002"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Payment declined by bank",
+    "resourceId": "payment-1212",
+    "timestamp": "2023-09-17T09:55:48Z",
+    "traceId": "trc-022-lll",
+    "spanId": "span-2222",
+    "commit": "l34m56n",
+    "metadata": {
+      "parentResourceId": "bank-001"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Background cleanup job executed",
+    "resourceId": "job-1313",
+    "timestamp": "2023-09-17T10:05:12Z",
+    "traceId": "trc-023-mmm",
+    "spanId": "span-2323",
+    "commit": "m78n90o",
+    "metadata": {
+      "parentResourceId": "job-001"
+    }
+  },
+  {
+    "level": "info",
+    "message": "System configuration updated",
+    "resourceId": "config-1414",
+    "timestamp": "2023-09-17T10:15:33Z",
+    "traceId": "trc-024-nnn",
+    "spanId": "span-2424",
+    "commit": "n12o34p",
+    "metadata": {
+      "parentResourceId": "config-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Memory leak suspected",
+    "resourceId": "server-1515",
+    "timestamp": "2023-09-17T10:25:50Z",
+    "traceId": "trc-025-ooo",
+    "spanId": "span-2525",
+    "commit": "o56p78q",
+    "metadata": {
+      "parentResourceId": "server-002"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Order processing failed",
+    "resourceId": "order-1616",
+    "timestamp": "2023-09-17T10:35:09Z",
+    "traceId": "trc-026-ppp",
+    "spanId": "span-2626",
+    "commit": "p90q12r",
+    "metadata": {
+      "parentResourceId": "order-003"
+    }
+  },
+  {
+    "level": "info",
+    "message": "Subscription renewed",
+    "resourceId": "billing-1717",
+    "timestamp": "2023-09-17T10:45:26Z",
+    "traceId": "trc-027-qqq",
+    "spanId": "span-2727",
+    "commit": "q34r56s",
+    "metadata": {
+      "parentResourceId": "billing-001"
+    }
+  },
+  {
+    "level": "debug",
+    "message": "Fetching analytics data",
+    "resourceId": "analytics-1818",
+    "timestamp": "2023-09-17T10:55:59Z",
+    "traceId": "trc-028-rrr",
+    "spanId": "span-2828",
+    "commit": "r78s90t",
+    "metadata": {
+      "parentResourceId": "analytics-001"
+    }
+  },
+  {
+    "level": "warn",
+    "message": "Network latency detected",
+    "resourceId": "network-1919",
+    "timestamp": "2023-09-17T11:05:47Z",
+    "traceId": "trc-029-sss",
+    "spanId": "span-2929",
+    "commit": "s12t34u",
+    "metadata": {
+      "parentResourceId": "network-001"
+    }
+  },
+  {
+    "level": "error",
+    "message": "Service dependency unavailable",
+    "resourceId": "service-2020",
+    "timestamp": "2023-09-17T11:15:18Z",
+    "traceId": "trc-030-ttt",
+    "spanId": "span-3030",
+    "commit": "t56u78v",
+    "metadata": {
+      "parentResourceId": "service-001"
+    }
+  }
+]
