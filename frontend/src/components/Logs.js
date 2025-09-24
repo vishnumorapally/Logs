@@ -11,7 +11,7 @@ export const Logs = ({ ftype, flever, fsearch, ffrom, fto }) => {
   useEffect(() => {
     const fetchLogs = async () => {
       try {
-        const response = await fetch("http://localhost:5000/api/logs");
+        const response = await fetch("https://logs-ay94.onrender.com/api/logs");
         if (!response.ok) {
           throw new Error("Failed to fetch logs");
         }
