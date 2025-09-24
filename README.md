@@ -7,3 +7,5 @@ Node Js
 MongoDB
 
 For live link : https://logsvishnu.netlify.app/
+
+wait for 1 minute to load the backend server so you see a message like loading logs..
